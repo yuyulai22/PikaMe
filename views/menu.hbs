@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Welcome</title>
+      <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+      <link rel="stylesheet" href="/stylesheets/style.css">
+
+
+</head>
+
+<body>
+  <div class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="#">PikaMe</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="/users/register">Register</a></li>
+          <li><a href="/users/login">Login</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container"> 
+    <h2 class="page-header">Register
+      <p>Please register using the form below</p>
+      <form method="post" action="/users/register" enctype="multipart/form-data">
+        <div class="form-group"></div>
+        <label>Name </label>
+        <input class="form-control" name="name" type="text" placeholder="Enter name"/>
+        <div class="form-group"></div>
+        <label>Email </label>
+        <input class="form-control" name="email" type="email" placeholder="Enter Email"/>
+        <div class="form-group"></div>
+        <label>Username </label>
+        <input class="form-control" name="username" type="text" placeholder="Enter User name"/>
+        <div class="form-group"></div>
+        <label>Password</label>
+        <input class="form-control" name="password" type="password" placeholder="Enter password"/>
+        <div class="form-group"></div>
+        <label>Confirm Passwords</label>
+        <input class="form-control" name="password2" type="password" placeholder="Confirm password"/>
+        <input class="btn btn-primary" type="submit" name="submit" value="Register"/>
+      </form>
+  </h2>
+  </div>
+</body>
+
+</html>

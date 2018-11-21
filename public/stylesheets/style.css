@@ -1,0 +1,150 @@
+#message{
+  transition: opacity 3s;
+}
+
+
+ul.success li{
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+	list-style: none;
+}
+
+ul.error li{
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+	list-style: none;
+
+}
+
+form{
+	background-color: white;
+	padding: 10px;
+}
+
+
+
+.astext {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+}
+
+
+
+.astext:hover{
+  color: #1943B7;
+  cursor: pointer;
+}
+
+.full-overlay{
+  position: relative;
+  z-index: 1;
+  height:350px;
+  text-align: center;
+  padding:40px;
+  background-size: cover;
+}
+
+/*.main-text {
+position: absolute;
+top: 30%;
+width: 42%;
+color:#ECE9E7;
+font-weight: bold;
+font-size: 28px;
+}
+
+.main-text h1 {
+font-family: 'Montserrat', sans-serif;
+color: #ECE9E7;
+font-size: 80px;
+}
+*/
+/*         overlay styles */
+/*h1 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-bottom: 0;
+    font-size: 49px;
+}*/
+
+.carousel-item{
+   -webkit-filter: brightness(29%);
+    filter:brightness(29%);
+}
+
+
+.main-container{
+    width: 450px;
+    height: 200px;
+}
+.main-wrapper{
+    margin: auto;
+    background-color: #ccc;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+body{
+	background-image: url('https://i.redd.it/oexlfzwy78ex.png');
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*.formclass{
+    border-style: solid;
+    border-width: 2px solid #aaaaaa;
+    border-radius: 5px;
+
+  }*/
+
+.containertwo{
+  width: 35%;
+  background-color: lightgrey;
+  margin: auto;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:15px;
+  padding-top: 2px;
+  border-radius: 25px;
+  position: absolute;
+  right: 8%;
+  top: 10%;
+}
+
+
+
+
+.main-text {
+position: absolute;
+top: 30%;
+width: 42%;
+color:black;
+font-weight: bold;
+font-size: 28px;
+left: 8%;
+}
+
+.main-text h1 {
+font-family: 'Montserrat', sans-serif;
+color: black;
+font-size: 80px;
+}
+/*this is for the login page*/
+
