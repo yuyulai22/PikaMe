@@ -19,15 +19,12 @@
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li>
-
-          	<a href="/register">Register{{{link}}}</a>
+            <a href="/users/register">Register</a>
 
           </li>
           <li>
 
-          	<a href="/login">Login{{{linklogin}}}</a>
-
-
+            <a href="/users/login">Login</a>
 
          </li>
         </ul>
@@ -48,7 +45,7 @@
 	<div class="containertwo">  
     <h2 class="page-header">Register</h2>
       <p>Please register using the form below</p>
-      <form method="post" action="/users/register" enctype="multipart/form-data" class= "formclass">
+      <form method="post" action="/users/register" enctype='application/x-www-form-urlencoded' class= "formclass">
         <div class="form-group"></div>
         <label>Name </label>
         <input class="form-control" name="name" type="text" placeholder="Enter name"/>
